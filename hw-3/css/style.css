@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #f4f5f4;
+    font-size: 14px;
+
+}
+
+
+.copyright {
+    font-size: 12px;
+}
+
+.text-center {
+    text-align: center;
+}
