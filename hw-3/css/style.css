@@ -6,16 +6,83 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background: #f4f5f4;
+    background: #f9f9f9;
     font-size: 14px;
-
+    color: #2c2c2c;
 }
 
+a {
+    text-decoration: none;
+}
 
-.copyright {
-    font-size: 12px;
+ul {
+    list-style: none;
+}
+
+.logo {
+    margin-bottom: 40px;
+}
+
+.menu-top {
+    display: inline-block;
+}
+
+.menu-top li,
+.menu-footer li {
+    float: left;
+}
+
+.container-wrapper {
+    background: #fff;
+    width: 1060px;
+    margin: 0 auto;
+    padding: 50px 46px 0 46px;
+}
+
+.left-sidebar {
+    float: left;
+    width: 240px;
+}
+
+.menu-left li:first-child {
+    border-top: 1px solid #c8c8c8;
+}
+
+.menu-left li {
+    margin-bottom: 0;
+    padding-left: 24px;
+    border-bottom: 1px solid #c8c8c8;
+    border-left: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    height: 40px;
+    line-height: 40px;
+}
+.menu-left li:hover{
+    background: #f9f9f9;
+}
+
+.menu-left li a {
+    color: #656363;
+}
+
+.menu-left .active {
+    background: #f9f9f9;
+    padding-left: 36px;
+}
+
+.menu-left .active a {
+    color: #2c2c2c;
+}
+
+.main-content {
+    width: 678px;
+    float: right;
 }
 
 .text-center {
     text-align: center;
+}
+
+.clearfix {
+    clear: both;
 }
