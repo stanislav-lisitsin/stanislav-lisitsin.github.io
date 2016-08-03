@@ -77,6 +77,16 @@ header {
     padding: 50px 46px 40px;
 }
 
+.img-container {
+    border: 1px solid #c8c8c8;
+    padding: 45px 0;
+    margin-bottom: 40px;
+}
+
+.text-container {
+    padding: 0 40px;
+}
+
 .left-sidebar {
     float: left;
     width: 240px;
@@ -114,7 +124,6 @@ header {
 }
 
 /*FOOTER*/
-
 footer {
     background: #e1e1e1;
     height: 40px;
