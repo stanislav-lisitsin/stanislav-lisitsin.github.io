@@ -126,7 +126,6 @@ ul {
     color: #128aa7;
     text-decoration: underline;
 }
-
 /*END HEADER*/
 
 /*SLIDER*/
@@ -136,7 +135,6 @@ ul {
     border-bottom: 2px solid #138aa7;
     overflow: hidden;
 }
-
 /*END SLIDER*/
 
 /*MENU*/
@@ -203,11 +201,9 @@ ul {
 .level_2 li a {
     /*padding: 0 45px 0 12px;*/
 }
-
 /*END MENU*/
 
 /*LEFT CENTRAL RIGHT SIDEBARS*/
-
 .main-content {
     display: table-cell;
     width: 580px;
@@ -237,7 +233,6 @@ ul {
     border-left: 1px solid #c7cacf;
     border-right: 1px solid #c7cacf;
 }
-
 /*END LEFT CENTRAL RIGHT SIDEBARS*/
 
 /*FOOTER*/
@@ -247,5 +242,4 @@ ul {
     color: #fff;
     padding: 10px 0;
 }
-
 /*END FOOTER*/
