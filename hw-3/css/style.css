@@ -114,9 +114,8 @@ header {
     border-top: 1px solid #c8c8c8;
 }
 
-.menu-left li {
+.menu-left li a{
     margin-bottom: 0;
-    padding-left: 24px;
     border-bottom: 1px solid #c8c8c8;
     border-left: 1px solid #c8c8c8;
     border-right: 1px solid #c8c8c8;
@@ -128,13 +127,16 @@ header {
     transition: all .3s ease;
 }
 
-.menu-left li:hover {
+.menu-left li a:hover {
     background: #f9f9f9;
     padding-left: 36px;
 }
 
 .menu-left li a {
     color: #656363;
+    display: inline-block;
+    width: 100%;
+    padding-left: 20px;
 }
 
 .menu-left .active {
