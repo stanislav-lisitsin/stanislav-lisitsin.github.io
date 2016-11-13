@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, serif;
+    background: #e2e1e1;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.outline {
+    outline: 1px solid #f00;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*======================= menu ==============================*/
+.menu {
+    background: url(../img/bg-menu.jpg);
+    background-repeat: repeat-x;
+    height: 36px;
+    line-height: 36px;
+}
+
+.menu li {
+    float: left;
+    list-style: none;
+}
+
+.menu li a {
+    color: #60b5ed;
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.header-nav li.active a {
+    background: #4eabda;
+    color: #fff;
+}
+
+
+.menu li a:hover {
+    background: #4eabda;
+    color: #fff;
+}
+
+
+.header-login li a:hover {
+
+    color: #fff;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#50afdc+0,2e7ac4+100 */
+    background: #50afdc; /* Old browsers */
+    background: -moz-linear-gradient(top,  #50afdc 0%, #2e7ac4 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #50afdc 0%,#2e7ac4 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #50afdc 0%,#2e7ac4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50afdc', endColorstr='#2e7ac4',GradientType=0 ); /* IE6-9 */
+}
+
+
+.flag:before{
+    content: '';
+    background: url(../img/flag.png);
+}
+/*======================= menu ==============================*/
+
+/*=======================contact form=======================*/
+.separator {
+    padding: 30px 0;
+    font-size: 14px;
+    color: #999;
+    overflow: hidden;
+}
+
+.separator:before,
+.separator:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 1px;
+    margin: 0 3px;
+    background: #666;
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.separator:before {
+    margin-left: -100%;
+}
+
+.separator:after {
+    margin-right: -100%;
+}
+
+.contact-form-wrapper {
+    display: table;
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.contact-form-box {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.contact-header,
+.contact-content {
+    width: 560px;
+    background: rgba(0, 0, 0, 0.63);
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.contact-header {
+    margin-bottom: 2px;
+    text-align: center;
+    padding: 17px 0;
+}
+
+.contact-header h1 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.contact-form {
+    width: 276px;
+    margin: 0 auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="password"] {
+    border: none;
+    background: #0f0e0e;
+    border-bottom: 1px solid #484948;
+    margin-top: 0;
+    width: 100%;
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 15px;
+    padding: 10px 0 10px 18px;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form input[type="password"]:focus {
+    background: #1b5288;
+    color: #fff;
+    -webkit-box-shadow: 0 0 10px 0 rgba(73, 135, 173, 0.89);
+    -moz-box-shadow: 0 0 10px 0 rgba(73, 135, 173, 0.89);
+    box-shadow: 0 0 10px 0 rgba(73, 135, 173, 0.89);
+}
+
+.contact-form input[type="text"]:focus::-webkit-input-placeholder,
+.contact-form input[type="email"]:focus::-webkit-input-placeholder,
+.contact-form input[type="password"]:focus::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #fff;
+}
+
+.contact-form input[type="text"]:focus::-moz-placeholder,
+.contact-form input[type="email"]:focus::-moz-placeholder,
+.contact-form input[type="password"]:focus::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff;
+}
+
+.contact-form input[type="text"]:focus:-ms-input-placeholder,
+.contact-form input[type="email"]:focus:-ms-input-placeholder,
+.contact-form input[type="password"]:focus:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff;
+}
+
+.contact-form input[type="text"]:focus:-moz-placeholder,
+.contact-form input[type="email"]:focus:-moz-placeholder,
+.contact-form input[type="password"]:focus:-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff;
+}
+
+.contact-form input[type="submit"] {
+    width: 150px;
+    height: 36px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+
+    cursor: pointer;
+    background: #61b2d8; /* Old browsers */
+    background: -moz-linear-gradient(top, #61b2d8 0%, #2e7ac4 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #61b2d8 0%, #2e7ac4 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #61b2d8 0%, #2e7ac4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#61b2d8', endColorstr='#2e7ac4', GradientType=0); /* IE6-9 */
+
+}
+
+.contact-form input[type="submit"]:hover {
+    background: #2475c1; /* Old browsers */
+    background: -moz-linear-gradient(top, #2475c1 0%, #2475c1 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #2475c1 0%, #2475c1 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #2475c1 0%, #2475c1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2475c1', endColorstr='#2475c1', GradientType=0); /* IE6-9 */
+
+}
+
+.checkbox {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.privacy-policy {
+    font-size: 11px;
+    color: #ccc;
+}
+
+/*=======================contact form=======================*/
