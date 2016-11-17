@@ -1,0 +1,319 @@
+/* The CSS */
+/*select {*/
+/*padding:3px;*/
+/*margin: 0;*/
+/*-webkit-border-radius:4px;*/
+/*-moz-border-radius:4px;*/
+/*border-radius:4px;*/
+/*-webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;*/
+/*-moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;*/
+/*box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;*/
+/*background: #f8f8f8;*/
+/*color:#888;*/
+/*border:none;*/
+/*outline:none;*/
+/*display: inline-block;*/
+/*-webkit-appearance:none;*/
+/*-moz-appearance:none;*/
+/*appearance:none;*/
+/*cursor:pointer;*/
+/*}*/
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+/*@media screen and (-webkit-min-device-pixel-ratio:0) {*/
+/*select {padding-right:18px}*/
+/*}*/
+
+/*label {*/
+/*position: relative*/
+/*}*/
+/*label:after {*/
+/*content: url("../img/arrow-select.png");*/
+/*font:11px "Consolas", monospace;*/
+/*color:#aaa;*/
+/*-webkit-transform:rotate(90deg);*/
+/*-moz-transform:rotate(90deg);*/
+/*-ms-transform:rotate(90deg);*/
+/*transform:rotate(90deg);*/
+/*right:8px; top:2px;*/
+/*padding:0 0 2px;*/
+/*border-bottom:1px solid #ddd;*/
+/*position:absolute;*/
+/*pointer-events:none;*/
+/*}*/
+/*select:before {*/
+/*content: url("../img/arrow-select.png");*/
+/*right:6px; top:0px;*/
+/*width:20px; height:20px;*/
+/*background:#f8f8f8;*/
+/*position:absolute;*/
+/*pointer-events:none;*/
+/*display:block;*/
+/*}*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    color: #2c2c2c;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 46px;
+}
+
+/*header_top*/
+.header_top {
+    height: 50px;
+    line-height: 50px;
+}
+
+.phone-contact {
+    height: 23px;
+    line-height: 23px;
+    float: left;
+}
+
+.phone-contact a {
+    font-family: "Arial", sans-serif;
+    color: #213a4d;
+    font-size: 18px;
+    /* padding: 10px 0 0 5px; */
+}
+
+.login-form {
+    float: left;
+}
+
+.login-form-box {
+    float: left;
+}
+
+.registration-box {
+    float: left;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+    width: 115px;
+    border: 1px solid #eee;
+}
+
+/*header_top*/
+
+/*HEADER MENU*/
+
+.phone-contact a:hover {
+
+}
+
+.header-menu {
+    display: inline-block;
+    margin: 12px 0;
+}
+
+.header-menu li:hover a {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#206988+0,114165+59,0c3256+100 */
+    background: #206988; /* Old browsers */
+    background: -moz-linear-gradient(top, #206988 0%, #114165 59%, #0c3256 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #206988 0%, #114165 59%, #0c3256 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #206988 0%, #114165 59%, #0c3256 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#206988', endColorstr='#0c3256', GradientType=0); /* IE6-9 */
+
+}
+
+.header-menu li {
+    float: left;
+    margin: 0 14px;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.header-menu li a {
+    color: #b1bcc0;
+}
+
+.header-logo {
+    width: 908px;
+    height: 237px;
+    background: url(../img/logo.jpg) no-repeat;
+}
+
+/*HEADER MENU*/
+
+/*searches*/
+
+.searches {
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+}
+
+.search-by-car {
+    width: 430px;
+    float: left;
+
+}
+
+.search-by-tire {
+    width: 202px;
+    float: left;
+    background: #ff263a;
+}
+
+.search-by-disks {
+    width: 276px;
+    float: left;
+    background: #0000ff;
+}
+
+form#search-by-car {
+    border: 2px solid #ccc;
+    border-radius: 17px;
+}
+
+.search-left {
+    float: left;
+    width: 213px;
+}
+
+.search-right {
+    float: left;
+    width: 213px;
+}
+
+.btn-search {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+/*searches*/
+
+/*products*/
+.products {
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+}
+
+.products-catalog {
+    width: 192px;
+    float: left;
+    background: #f00;
+
+}
+
+.products-display {
+    width: 524px;
+    float: left;
+    background: #3659ff;
+}
+
+.products-brands {
+    width: 192px;
+    float: left;
+    background: #45ff4a;
+}
+
+/*products*/
+
+/*brands*/
+.brands {
+    text-align: center;
+}
+
+.brands-list {
+    display: inline-block;
+    margin: 12px 0;
+}
+
+.brands-list li {
+    display: block;
+    float: left;
+    margin: 0 10px;
+}
+
+.brands-list li a {
+
+}
+
+/*brands*/
+
+/*FOOTER*/
+footer {
+    background: #213a4d;
+    color: #7f4740;
+    text-align: center;
+    height: 100px;
+    box-shadow: 0 0 1px #242c3e;
+    font-family: Arial, sans-serif;
+}
+
+.footer-menu {
+    display: inline-block;
+    margin: 12px 0;
+}
+
+.footer-menu li {
+    float: left;
+    margin: 0 14px;
+    font-size: 12px;
+}
+
+.footer-menu li:first-child:before {
+    content: "";
+    background: transparent;
+}
+
+.footer-menu li:before {
+    /*content: "|";*/
+    content: "";
+    background: #8d989f;
+    width: 2px;
+    height: 11px;
+    margin-left: -14px;
+    margin-top: 2px;
+    position: absolute;
+}
+
+.footer-menu li a {
+    color: #bec6c9;
+}
+
+.footer-menu a:hover {
+    color: #52abcb;
+}
+
+.copyright {
+    font-size: 10px;
+}
+
+/*FOOTER*/

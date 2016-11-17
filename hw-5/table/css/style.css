@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .wrapper {
     width: 500px;
@@ -5,17 +10,52 @@
 }
 
 table, td {
-    border: 10px solid black;
     border-collapse: collapse;
 }
 
 table {
-    width: 100%;
+    width: 510px;
 }
 
 td {
-    height: 50px;
+    border: 10px solid #000;
+}
 
+.row-1 {
+    height: 50px
+}
+
+.row-2, .row-3 {
+    height: 130px
+}
+
+.row-2 td:nth-child(1) {
+    width: 50px;
+}
+
+.row-2 td:nth-child(2) {
+    height: 265px;
+}
+
+.row-4, .row-5 {
+    height: 60px
+}
+
+.row-4 td:nth-child(1),
+.row-4 td:nth-child(2) {
+    width: 75px;
+}
+
+.row-4 td:nth-child(3) {
+    width: 150px;
+}
+
+.row-6 {
+    height: 30px
+}
+
+.row-7 {
+    height: 40px
 }
 
 .red {
@@ -23,7 +63,7 @@ td {
 }
 
 .black {
-    background: #000;
+    background: rgba(0, 0, 0, 0.9);
 }
 
 .blue {

@@ -43,9 +43,17 @@ ol, ul {
 }
 
 .menu li a {
+    font-size: 14px;
     color: #60b5ed;
     padding: 0 10px;
     display: inline-block;
+}
+
+.menu-nav {
+    float: right;
+    display: inline-block;
+    height: inherit;
+    margin-right: 20px;
 }
 
 .header-nav li.active a {
@@ -53,29 +61,61 @@ ol, ul {
     color: #fff;
 }
 
-
 .menu li a:hover {
     background: #4eabda;
     color: #fff;
 }
 
+.header-nav, .header-login {
+    display: inline-block;
+}
+
+.header-login li a {
+    color: #fff;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+}
+
+.header-nav li:last-child:after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 32px;
+    vertical-align: top;
+    margin: 2px;
+    background-color: #56a2dc;
+}
 
 .header-login li a:hover {
 
     color: #fff;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#50afdc+0,2e7ac4+100 */
     background: #50afdc; /* Old browsers */
-    background: -moz-linear-gradient(top,  #50afdc 0%, #2e7ac4 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #50afdc 0%,#2e7ac4 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #50afdc 0%,#2e7ac4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50afdc', endColorstr='#2e7ac4',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient(top, #50afdc 0%, #2e7ac4 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #50afdc 0%, #2e7ac4 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #50afdc 0%, #2e7ac4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#50afdc', endColorstr='#2e7ac4', GradientType=0); /* IE6-9 */
+
+    border-right: 1px solid #51a0da;
+    border-left: 1px solid #51a0da;
 }
 
-
-.flag:before{
-    content: '';
-    background: url(../img/flag.png);
+.header-login span {
+    border-bottom: 1px solid #fff;
 }
+
+.flag:before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 27px;
+    margin-left: 15px;
+    vertical-align: top;
+    margin-top: 5px;
+    background-image: url(../img/flag.png);
+    background-repeat: no-repeat;
+}
+
 /*======================= menu ==============================*/
 
 /*=======================contact form=======================*/
@@ -129,7 +169,7 @@ ol, ul {
     width: 560px;
     background: rgba(0, 0, 0, 0.63);
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 36px 0 20px 0;
 }
 
 .contact-header {

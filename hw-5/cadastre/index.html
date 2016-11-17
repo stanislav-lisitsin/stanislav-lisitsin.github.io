@@ -14,23 +14,25 @@
     <header>
 
         <div class="menu">
+            <div class="menu-nav">
 
-            <nav class="header-nav">
-                <ul>
-                    <li><a href="#">Meu YouBike</a></li>
-                    <li class="active"><a href="#">Vender</a></li>
-                    <li><a href="#">Forum</a></li>
-                    <li><a href="#">Contato</a></li>
-                    <li><a href="#">Ajuda</a></li>
-                </ul>
-            </nav>
-            <nav class="header-login">
-                <ul>
-                    <li class="flag"><a href="#">Minhas Ofertas</a></li>
-                    <li><a href="#">Ola! Entrar ou Cadastre-se</a></li>
-                </ul>
-            </nav>
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href="#">Meu YouBike</a></li>
+                        <li class="active"><a href="#">Vender</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Ajuda</a></li>
+                    </ul>
+                </nav>
+                <nav class="header-login">
+                    <ul>
+                        <li class="flag"><a href="#">Minhas Ofertas</a></li>
+                        <li><a href="#">Ola! <span>Entrar</span> ou <span>Cadastre-se</span></a></li>
+                    </ul>
+                </nav>
 
+            </div>
         </div>
 
     </header>
@@ -46,9 +48,9 @@
                 </div>
 
                 <div class="contact-content">
-                    <form class="contact-form" id="contact-form" action="" method="get">
+                    <form class="contact-form" id="contact-form" action="#" method="post">
 
-                        <!--<p><a class="facebook" href="#"><img src="img/facebook.png" alt="facebook"></a></p>-->
+                        <p><a class="facebook" href="#" target="_blank"><img src="img/fb.png" alt="facebook"></a></p>
 
                         <div class="separator text-center" >OU</div>
 
@@ -64,8 +66,8 @@
                         <p><input type="password" name="password-confirm" placeholder="Password Confirm"></p>
 
                         <p>
-                            <input type="checkbox" name="checkout">
-                            <span class="checkbox">Send me Youbike updates and tips</span>
+                            <input type="checkbox" name="checkout" id="checkbox">
+                            <label for="checkbox" class="checkbox">Send me Youbike updates and tips</label>
                         </p>
 
                         <p class="text-center"><input class="create-button" type="submit" value="Create my Account"></p>
