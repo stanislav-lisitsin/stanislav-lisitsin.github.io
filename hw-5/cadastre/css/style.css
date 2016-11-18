@@ -35,6 +35,9 @@ ol, ul {
     background-repeat: repeat-x;
     height: 36px;
     line-height: 36px;
+    position: absolute;
+    z-index: 111;
+    width: 100%;
 }
 
 .menu li {

@@ -70,6 +70,10 @@ ul {
     list-style: none;
 }
 
+figure {
+    margin: 15px 19px;
+}
+
 .clearfix:after {
     content: '';
     clear: both;
@@ -234,7 +238,46 @@ form#search-by-car {
 .products-display {
     width: 524px;
     float: left;
-    background: #3659ff;
+    text-align: center;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5e7e8+0,93a7b0+100 */
+    background: #e5e7e8; /* Old browsers */
+    background: -moz-linear-gradient(top, #e5e7e8 0%, #93a7b0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e5e7e8 0%, #93a7b0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e5e7e8 0%, #93a7b0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e7e8', endColorstr='#93a7b0', GradientType=0); /* IE6-9 */
+
+}
+
+.product-img {
+    float: left;
+}
+
+.product-img .title {
+    color: #206988;
+    font-size: 15px;
+}
+
+.product-img .sub-title {
+    color: #1f2528;
+    font-size: 13px;
+}
+
+.product-img .img-products {
+    background: #fff;
+    border-radius: 10px;
+    width: 136px;
+    padding: 5px 0;
+    border: 1px solid #b0b9bc;
+}
+
+.product-img .img-products img {
+}
+
+.product-img .price {
+    color: #114165;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-style: italic;
 }
 
 .products-brands {
